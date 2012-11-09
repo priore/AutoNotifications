@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F2FC620164D31CF00DA390C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2FC61F164D31CF00DA390C /* ViewController.xib */; };
+		9F71F683164D257E00351DE4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71F682164D257D00351DE4 /* UIKit.framework */; };
+		9F71F685164D257E00351DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71F684164D257E00351DE4 /* Foundation.framework */; };
+		9F71F687164D257E00351DE4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71F686164D257E00351DE4 /* CoreGraphics.framework */; };
+		9F71F68D164D257E00351DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F71F68B164D257E00351DE4 /* InfoPlist.strings */; };
+		9F71F68F164D257E00351DE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71F68E164D257E00351DE4 /* main.m */; };
+		9F71F693164D257E00351DE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71F692164D257E00351DE4 /* AppDelegate.m */; };
+		9F71F69C164D257E00351DE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71F69B164D257E00351DE4 /* ViewController.m */; };
+		9F71F6AA164D25B400351DE4 /* UIViewController+AutoNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F71F6A9164D25B400351DE4 /* UIViewController+AutoNotifications.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F2FC61F164D31CF00DA390C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		9F71F67E164D257D00351DE4 /* AutoNotifications Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoNotifications Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F71F682164D257D00351DE4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F71F684164D257E00351DE4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F71F686164D257E00351DE4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F71F68A164D257E00351DE4 /* AutoNotifications Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoNotifications Sample-Info.plist"; sourceTree = "<group>"; };
+		9F71F68C164D257E00351DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F71F68E164D257E00351DE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F71F690164D257E00351DE4 /* AutoNotifications Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoNotifications Sample-Prefix.pch"; sourceTree = "<group>"; };
+		9F71F691164D257E00351DE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F71F692164D257E00351DE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F71F69A164D257E00351DE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F71F69B164D257E00351DE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F71F6A8164D25B400351DE4 /* UIViewController+AutoNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AutoNotifications.h"; sourceTree = "<group>"; };
+		9F71F6A9164D25B400351DE4 /* UIViewController+AutoNotifications.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AutoNotifications.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F71F67B164D257D00351DE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F71F683164D257E00351DE4 /* UIKit.framework in Frameworks */,
+				9F71F685164D257E00351DE4 /* Foundation.framework in Frameworks */,
+				9F71F687164D257E00351DE4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F71F673164D257D00351DE4 = {
+			isa = PBXGroup;
+			children = (
+				9F71F688164D257E00351DE4 /* AutoNotifications Sample */,
+				9F71F681164D257D00351DE4 /* Frameworks */,
+				9F71F67F164D257D00351DE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F71F67F164D257D00351DE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F71F67E164D257D00351DE4 /* AutoNotifications Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F71F681164D257D00351DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F71F682164D257D00351DE4 /* UIKit.framework */,
+				9F71F684164D257E00351DE4 /* Foundation.framework */,
+				9F71F686164D257E00351DE4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F71F688164D257E00351DE4 /* AutoNotifications Sample */ = {
+			isa = PBXGroup;
+			children = (
+				9F71F691164D257E00351DE4 /* AppDelegate.h */,
+				9F71F692164D257E00351DE4 /* AppDelegate.m */,
+				9F71F69A164D257E00351DE4 /* ViewController.h */,
+				9F71F69B164D257E00351DE4 /* ViewController.m */,
+				9F2FC61F164D31CF00DA390C /* ViewController.xib */,
+				9F71F6A8164D25B400351DE4 /* UIViewController+AutoNotifications.h */,
+				9F71F6A9164D25B400351DE4 /* UIViewController+AutoNotifications.m */,
+				9F71F689164D257E00351DE4 /* Supporting Files */,
+			);
+			path = "AutoNotifications Sample";
+			sourceTree = "<group>";
+		};
+		9F71F689164D257E00351DE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F71F68A164D257E00351DE4 /* AutoNotifications Sample-Info.plist */,
+				9F71F68B164D257E00351DE4 /* InfoPlist.strings */,
+				9F71F68E164D257E00351DE4 /* main.m */,
+				9F71F690164D257E00351DE4 /* AutoNotifications Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F71F67D164D257D00351DE4 /* AutoNotifications Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F71F6A5164D257E00351DE4 /* Build configuration list for PBXNativeTarget "AutoNotifications Sample" */;
+			buildPhases = (
+				9F71F67A164D257D00351DE4 /* Sources */,
+				9F71F67B164D257D00351DE4 /* Frameworks */,
+				9F71F67C164D257D00351DE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoNotifications Sample";
+			productName = "AutoNotifications Sample";
+			productReference = 9F71F67E164D257D00351DE4 /* AutoNotifications Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F71F675164D257D00351DE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Prioregorup.com;
+			};
+			buildConfigurationList = 9F71F678164D257D00351DE4 /* Build configuration list for PBXProject "AutoNotifications Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F71F673164D257D00351DE4;
+			productRefGroup = 9F71F67F164D257D00351DE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F71F67D164D257D00351DE4 /* AutoNotifications Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F71F67C164D257D00351DE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F71F68D164D257E00351DE4 /* InfoPlist.strings in Resources */,
+				9F2FC620164D31CF00DA390C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F71F67A164D257D00351DE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F71F68F164D257E00351DE4 /* main.m in Sources */,
+				9F71F693164D257E00351DE4 /* AppDelegate.m in Sources */,
+				9F71F69C164D257E00351DE4 /* ViewController.m in Sources */,
+				9F71F6AA164D25B400351DE4 /* UIViewController+AutoNotifications.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F71F68B164D257E00351DE4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F71F68C164D257E00351DE4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F71F6A3164D257E00351DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F71F6A4164D257E00351DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F71F6A6164D257E00351DE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoNotifications Sample/AutoNotifications Sample-Prefix.pch";
+				INFOPLIST_FILE = "AutoNotifications Sample/AutoNotifications Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F71F6A7164D257E00351DE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoNotifications Sample/AutoNotifications Sample-Prefix.pch";
+				INFOPLIST_FILE = "AutoNotifications Sample/AutoNotifications Sample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F71F678164D257D00351DE4 /* Build configuration list for PBXProject "AutoNotifications Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F71F6A3164D257E00351DE4 /* Debug */,
+				9F71F6A4164D257E00351DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F71F6A5164D257E00351DE4 /* Build configuration list for PBXNativeTarget "AutoNotifications Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F71F6A6164D257E00351DE4 /* Debug */,
+				9F71F6A7164D257E00351DE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F71F675164D257D00351DE4 /* Project object */;
+}
